@@ -760,3 +760,21 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git init
 git add .
+git commit -m universe.sql
+git remote -v
+git remotee remove origin
+git remote remove origin
+git -v
+git remote -v
+git remote add origin https://github.com/Abuzaid01/universe.sql.git
+git remote -v
+__vsc_prompt_cmd_original
+git push -u origin master
+__vsc_prompt_cmd_original
+git status
+git add .
+universe.sqldsc.,md
+dsi
+git add .
+universe.sql
+git add . universe.sql
